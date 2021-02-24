@@ -147,9 +147,9 @@ def save_binary(d, fpath):
 
 
 def makedirpath(fpath: str):
-    dpath = os.path.dirname(fpath)
+    dpath = os.path.dirname(fpath) # os.path.dirname()函数作用是去掉文件名，返回目录
     if dpath:
-        os.makedirs(dpath, exist_ok=True)
+        os.makedirs(dpath, exist_ok=True) #os.makedirs创建多层目录，exist_ok=True,当目标目录已存在不会触发异常
 
 
 def distribute_scores(score_masks, output_shape, K: int, S: int) -> np.ndarray:
