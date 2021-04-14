@@ -1,5 +1,6 @@
 # Patch SVDD
 所有图片用png格式，且mask图片一定要是单通道
+
 Patch SVDD for Image anomaly detection. Paper: https://arxiv.org/abs/2006.16067 (published in ACCV 2020).
 
 An input image and a generated anomaly map for 'wood' class.
